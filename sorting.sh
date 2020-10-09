@@ -4,6 +4,6 @@ read -p "enter first element" b
 read -p "enter first element" c
 res=$((a+$((b*c))))
 echo $res
-res1=$(($c+$(($a/$b))))
+res1=$(((($a*$b))+$c))
 echo $res1
 
