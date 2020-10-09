@@ -6,4 +6,6 @@ res=$((a+$((b*c))))
 echo $res
 res1=$(((($a*$b))+$c))
 echo $res1
+res2=$(($c+$(($a/$b))))
+echo $res2
 
